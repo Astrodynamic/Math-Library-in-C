@@ -84,4 +84,4 @@ make clang-format
 
 ## License
 
-The `CustomMath` library is released under the MIT License. See the LICENSE file for details.
+The `CustomMath` library is released under the MIT License. See the [LICENSE](LICENSE) file for details.
