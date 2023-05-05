@@ -6,15 +6,15 @@ set(CMAKE_C_EXTENSIONS OFF)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 include_directories(
-  ${CMAKE_SOURCE_DIR}/include
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
 )
 
 set(HEADERS
-  ${CMAKE_SOURCE_DIR}/include/castom_math.h
+  ${CMAKE_CURRENT_SOURCE_DIR}/include/castom_math.h
 )
 
 set(SOURCES
-  ${CMAKE_SOURCE_DIR}/source/castom_math.c
+  ${CMAKE_CURRENT_SOURCE_DIR}/source/castom_math.c
 )
 
 set(BUILD_FILES
